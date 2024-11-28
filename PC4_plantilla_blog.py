@@ -74,7 +74,6 @@ col1.image("0e1f7650-f045-478e-8aec-eeeb7b4e08f1.png", caption='Aquí puedes esc
 
 texto = """
 Hola, soy Rodrigo, tengo 18 años. Lo que me gusta de estudiar periodismo es que permite explorar y comunicar historias que impactan a la sociedad, mientras desarrollan habilidades críticas para entender y analizar el mundo que los rodea. Para el futuro me gustaría estar ligado al periodismo deportivo. Sin embargo, mi meta es trabajar a nivel institucional en el área de comunicaciones. En mi tiempo libre suelo jugar fútbol, es lo que más me gusta hacer. También me gusta ir al gimnasio y jugar Fifa con mis amigos.
-
 """
 
 # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -175,15 +174,15 @@ grafico_seleccionado = sidebar.selectbox('selecciona un gráfico', graficos)
 
 # Mostramos el gráfico seleccionado
 if grafico_seleccionado == 'barras':
-    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>En este gráfico, analizamos la frecuencia de palabras de un diccionario a raíz de los comentarios. Con ello podemos evidenciar que los comentarios están relacionados con temas tecnológicos y educativos. </div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>En este gráfico, analizamos la frecuencia de palabras de un diccionario a raíz de los comentarios. Con ello podemos evidenciar que los comentarios están relacionados con temas tecnológicos y educativos.</div>", unsafe_allow_html=True)
     sidebar.image("barras.png", caption='barras', width=500)
     pass
 elif grafico_seleccionado == 'milan':
-    sidebar.markdown("<div style='text-align: justify'>En este histograma, pudimos notar todos los goles anotados del Milan en la Serie A, tanto los anotados como los recibidos. Podemos evidenciar que como visitante la mayoría de veces anotó 1 gol y en menor cantidad de veces 3 y 4. Como local, en la mayoría de veces anotó 2 goles y con menor frecuencia anotó 5 goles. .</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify'>En este histograma, pudimos notar todos los goles anotados del Milan en la Serie A, tanto los anotados como los recibidos. Podemos evidenciar que como visitante la mayoría de veces anotó 1 gol y en menor cantidad de veces 3 y 4. Como local, en la mayoría de veces anotó 2 goles y con menor frecuencia anotó 5 goles.</div>", unsafe_allow_html=True)
     sidebar.image("milan.png", caption='milan', width=500)
     pass
 elif grafico_seleccionado == 'palabras':
-    sidebar.markdown("<div style='text-align: justify'>En este trabajo, analizamos la letra de la canción 'A Donde Va El Viento' de Julieta Venegas, Creamos un diccionario a partir de la lista donde cada palabra sea una clave y la cantidad de veces que aparece sea la frecuencia. Finalmente, creamos un gráfico de nubes de palabras (WordCloud) con los datos obtenidos anteriormente..</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify'>En este trabajo, analizamos la letra de la canción 'A Donde Va El Viento' de Julieta Venegas, Creamos un diccionario a partir de la lista donde cada palabra sea una clave y la cantidad de veces que aparece sea la frecuencia. Finalmente, creamos un gráfico de nubes de palabras (WordCloud) con los datos obtenidos anteriormente.</div>", unsafe_allow_html=True)
     sidebar.image("palabras.png", caption='palabras', width=500)
     pass
 
