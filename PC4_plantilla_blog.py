@@ -173,7 +173,7 @@ sidebar.markdown("<h1 style='text-align: center;'>Gráficos realizados en práct
 graficos = ['barras', 'milan', 'palabras']
 
 # Creamos un cuadro de selección en la barra lateral
-grafico_seleccionado = sidebar.selectbox('barras', graficos)
+grafico_seleccionado = sidebar.selectbox('selecciona un gráfico', graficos)
 # El cuadro de selección se crea con la función selectbox.
 # El primer argumento es el texto que se muestra en el cuadro de selección.
 # El segundo argumento es una lista de opciones que se pueden seleccionar.
