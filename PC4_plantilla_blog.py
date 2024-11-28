@@ -73,11 +73,7 @@ col1.image("0e1f7650-f045-478e-8aec-eeeb7b4e08f1.png", caption='Aquí puedes esc
 # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
 texto = """
-Hola, soy Rodrigo, tengo 18 años. Lo que me gusta de estudiar periodismo es que permite explorar y comunicar historias que impactan a la sociedad, mientras desarrollan habilidades críticas para entender y analizar el mundo que los rodea.
-
-Para el futuro me gustaría estar ligado al periodismo deportivo. Sin embargo, mi meta es trabajar a nivel institucional en el área de comunicaciones.
-
-En mi tiempo libre suelo jugar fútbol, es lo que más me gusta hacer. También me gusta ir al gimnasio y jugar Fifa con mis amigos.
+Hola, soy Rodrigo, tengo 18 años. Lo que me gusta de estudiar periodismo es que permite explorar y comunicar historias que impactan a la sociedad, mientras desarrollan habilidades críticas para entender y analizar el mundo que los rodea. Para el futuro me gustaría estar ligado al periodismo deportivo. Sin embargo, mi meta es trabajar a nivel institucional en el área de comunicaciones. En mi tiempo libre suelo jugar fútbol, es lo que más me gusta hacer. También me gusta ir al gimnasio y jugar Fifa con mis amigos.
 
 """
 
