@@ -115,12 +115,7 @@ st.markdown("<h2 style='text-align: center;'>Mi experiencia aprendiendo a progra
 # Agregar un  texto para la respuesta
 texto_2 = """
 Al principio, me sentía con mucho miedo de llevar el curso pues nunca antes había programado. Sentía que me iba a resultar muy difícil aprender todos los códigos necesarios y me sentía incapaz de realizar un proyecto.
-La programación me ha enseñado a pensar de manera más lógica y estructurada. Al escribir código, aprendes a descomponer problemas complejos en partes más pequeñas y manejables, lo que mejora tu capacidad para resolver problemas de forma sistemática. También he aprendido a ser paciente y persistente, ya que el proceso de depuración
-
-De la programación me gusta la libertad que permite a cada uno de hacer lo que le guste. Cada cual tiene la autonomía para realizar su propio proyecto.
-
-De cara al futuro, me gustaría aprender un poco más sobre Python para sacarle el máximo provecho posible
-. 
+La programación me ha enseñado a pensar de manera más lógica y estructurada. Al escribir código, aprendes a descomponer problemas complejos en partes más pequeñas y manejables, lo que mejora tu capacidad para resolver problemas de forma sistemática. También he aprendido a ser paciente y persistente, ya que el proceso de depuraciónDe la programación me gusta la libertad que permite a cada uno de hacer lo que le guste. Cada cual tiene la autonomía para realizar su propio proyecto.De cara al futuro, me gustaría aprender un poco más sobre Python para sacarle el máximo provecho posible. 
 """
 
 # Mostramos el texto
